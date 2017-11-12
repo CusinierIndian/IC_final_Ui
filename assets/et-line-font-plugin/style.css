@@ -9,10 +9,6 @@
 	font-style: normal;
 }
 
-.why-us-logo{
-	font-size:45px;
-	}
-
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 .etl-icon, [data-icon]:before {
 	font-family: 'et-line';

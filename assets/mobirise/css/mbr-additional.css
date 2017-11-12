@@ -421,8 +421,12 @@ h6,
   color: #bcbcbc;
 }
 #features7-b .iconbox {
-  background-color: #90a878;
-  border-color: #90a878;
+  background-color: #0f0202;
+border-color: #ebf3eb;
+}
+#slider2-10 .mbr-section-title,
+#slider2-10 .mbr-section-lead {
+  color: #fff;
 }
 #menu-a .hide-buttons .nav-btn {
   display: none !important;

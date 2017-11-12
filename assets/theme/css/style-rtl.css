@@ -5,7 +5,7 @@ body.rtl section .mbr-author-name, body.rtl section .mbr-plan-label, body.rtl se
 body.rtl section li, body.rtl section label.form-control-label, body.rtl section label.startPreset,
 body.rtl section .form-control, body.rtl section span.innerPhone, body.rtl section span.innerEmail,
 body.rtl section a.navbar-caption, body.rtl section th, body.rtl section td, body.rtl section strong {
-  direction: rtl !important; }
+ }
 body.rtl section th, body.rtl section .dataTables_info {
   text-align: right; }
 body.rtl section label.form-control-label {

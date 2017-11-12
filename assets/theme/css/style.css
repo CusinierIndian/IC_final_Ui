@@ -1,4 +1,5 @@
 /*!
+	assets\themes\css
  * Default theme v2 (https://mobirise.com/)
  * Copyright 2016 Mobirise
  */
@@ -590,7 +591,7 @@ p.lead,
  */
 body {
   font-family: 'Raleway', sans-serif;
-  color: #232323; }
+  color: #fbfbfb; }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
@@ -759,7 +760,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   bottom: 0;
   left: 0;
   opacity: 0.5;
-  position: absolute;
+  position: relative;
   right: 0;
   top: 0;
   z-index: 1; }
@@ -1282,10 +1283,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .mbr-cards .iconbox {
   border-style: solid;
   border-color: #f2f2f2;
-  border-width: 1px;
+  border-width: 4px;
   width: 100px;
   height: 100px;
-  line-height: 100px;
+  line-height: 106px;
   border-radius: 500px;
   display: inline-block; }
   .mbr-cards .iconbox > .mbr-iconfont {
@@ -2104,6 +2105,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .mbr-iconfont-company-contacts5 {
   font-size: 22px;
   color: #000; }
+  
 
 html.is-builder .mbr-cards .card-img + .card-block {
   padding-top: 0; }
@@ -2174,3 +2176,6 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 	top: 0;
 	left: -2400px;
 }
+
+
+

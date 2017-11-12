@@ -18,7 +18,7 @@
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true,
-        "isRtl": true
+        "isRtl": false
       },
       "additionalSetColors": [
         "#e6e7f1",
@@ -29,7 +29,7 @@
       ]
     },
     "versionFirst": "4.2.4",
-    "uniqCompNum": 31,
+    "uniqCompNum": 37,
     "versionPublish": "4.2.4",
     "favicon": "",
     "noImageResize": "true",
@@ -213,6 +213,70 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_name": "features7",
           "_anchor": "features7-b"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-lead": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": 5,
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-2.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "BOOTSTRAP SLIDER",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "IMAGE SLIDER",
+                "overlay": false,
+                "contentAlign": "right",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-7.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "BACKGROUND VIDEO",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider2",
+          "_anchor": "slider2-10"
         },
         {
           "_inherit": "testimonials2",

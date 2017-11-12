@@ -1,0 +1,206 @@
+.contact-us-content {
+    padding: 25px;
+ 
+}
+.contact-us-content>.row, {
+    padding: 15px 0px;
+    margin: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.form-control-feedback-success, .form-control-feedback-warning{
+    display:none;
+}
+/* form validation*/
+.has-success .form-control-input{
+    border:1px solid green;
+}
+.has-success .form-control-feedback-success{
+    color:green;
+    font-family: inherit;
+    display:block;
+}
+.has-success label{
+    color:green;
+}
+.has-warning .form-control-input{
+    border:1px solid #f0ad4e;
+}
+.has-warning .form-control-feedback-warning{
+    color:#f0ad4e;
+    font-family: inherit;
+    display:block;
+}
+.has-warning label{
+    color:#f0ad4e;
+}
+#map{
+	height:400px;
+	width:100%;
+	margin-top: 10px;
+}
+.contact-us-border{
+		border:none;
+	}
+#contact_error {
+    color: red;
+    width: 100%;
+    margin: 10px 0px;
+}
+ .service-heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+}
+
+#mySidenav a {
+    position: fixed;
+    right: -27px;
+    transition: 0.3s;
+    padding: 6px;
+    width: 78px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    z-index: 1040;
+    margin-top: 56px;
+   
+}
+
+
+#mySidenav a:hover {
+    right: 1px;
+}
+
+#about {
+    top: 20px;
+	 background-color: #3b5998;
+    
+}
+
+#blog {
+    top: 80px;
+	    background-color: #fb3958;
+   
+}
+
+#projects {
+    top: 140px;
+	    background-color:#00aced;
+   
+}
+
+#contact {
+    top: 200px;
+	    background-color: #90a878;
+   
+}
+.margin{
+margin-top: 50px;
+}
+
+.people-input {
+    padding: 0px 0px 0px 10px;
+}
+.no-padding {
+    padding: 0px;
+}
+
+.career-footer ,.service-footer,.feedback-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: center;
+    padding: 15px;
+    border-top: 1px solid #e9ecef;
+}
+/* for video */
+body {
+  margin: 0;
+  background: #000; 
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('The_Cucumber.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+/*#polina { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:2rem;
+  float: right;
+  font-size: 1.2rem;
+} */
+/*h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+#polina button { 
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none; 
+  margin: 1rem auto; 
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+#polina button:hover { 
+   background: rgba(0,0,0,0.5);
+} */
+
+ /*a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background; 
+}
+a:hover{
+  background:rgba(0,0,0,0.9);
+} */
+/*@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(The_Cucumber.jpg) #000 no-repeat center center fixed; }
+ #bgvid { display: none; } 
+} */
+
+
+/* social network */
+
+.affix-top {
+    position: absolute;
+    top: 35%;
+    left: 10px;
+    z-index: 1020;
+}
+
+/* social network */
